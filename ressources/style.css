@@ -34,11 +34,42 @@ q {
     font-size: 160%;
     background-color: #4b4160;
     border-radius: 15px;
-    border-left: 3px dashed blue;
+    border-left: 3px dashed;
     padding-left: 30px;
+    font-style: italic;
 }
 
 img {
     border-radius: 30px;
    /*box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.5), 0px -5px 10px rgba(255, 255, 255, 0.5);*/
+}
+
+.farmer {
+     border-color: blue;
+}
+
+.villagers {
+    border-color: rgba(121, 0, 117, 0.716);
+}
+
+header>figure>figcaption {
+    background-color:rgba(238, 198, 0, 0.2);
+    max-width: fit-content;
+    border-radius: 5px;
+}
+
+span {
+    text-transform: capitalize;
+}
+
+.good {
+color: rgb(29, 186, 79);
+}
+
+.bad {
+color: rgb(125, 9, 9);
+}
+
+.p1 {
+    font-weight: bold;
 }
