@@ -1,0 +1,44 @@
+p {
+    font-size: medium;
+    font-family: 'Bree Serif', serif;
+    word-spacing: 120%;
+    color: rgb(22, 0, 32);
+}
+
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    color: fuchsia;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+    background: linear-gradient(180deg, rgb(67, 5, 5), rgb(3, 49, 94));
+    text-shadow: 0px 5px 10px rgba(255, 255, 255, 0.5), 0px -5px 10px rgba(255, 255, 255, 0.5);
+}
+
+blockquote {
+    margin: 80px auto;
+    max-width: 50%;
+
+}
+
+q {
+    font-size: 160%;
+    background-color: #4b4160;
+    border-radius: 15px;
+    border-left: 3px dashed blue;
+    padding-left: 30px;
+}
+
+img {
+    border-radius: 30px;
+   /*box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.5), 0px -5px 10px rgba(255, 255, 255, 0.5);*/
+}
