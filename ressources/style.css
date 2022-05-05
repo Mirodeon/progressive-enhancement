@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    width: 90%;
+    margin: 0 auto;
+    background: linear-gradient(180deg, rgb(67, 5, 5), rgb(3, 49, 94));
+    text-shadow: 0px 5px 10px rgba(255, 255, 255, 0.5), 0px -5px 10px rgba(255, 255, 255, 0.5);
+    font-family: 'Open Sans', sans-serif;
+}
+
 p {
     font-size: medium;
     font-family: 'Bree Serif', serif;
@@ -17,12 +27,7 @@ a:hover {
     color: fuchsia;
 }
 
-body {
-    width: 90%;
-    margin: 0 auto;
-    background: linear-gradient(180deg, rgb(67, 5, 5), rgb(3, 49, 94));
-    text-shadow: 0px 5px 10px rgba(255, 255, 255, 0.5), 0px -5px 10px rgba(255, 255, 255, 0.5);
-}
+
 
 blockquote {
     margin: 80px auto;
@@ -41,11 +46,13 @@ q {
 
 img {
     border-radius: 30px;
-   /*box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.5), 0px -5px 10px rgba(255, 255, 255, 0.5);*/
+    float: left;
+    width: 270px;
+    box-sizing: border-box;
 }
 
 .farmer {
-     border-color: blue;
+    border-color: blue;
 }
 
 .villagers {
@@ -53,23 +60,42 @@ img {
 }
 
 header>figure>figcaption {
-    background-color:rgba(238, 198, 0, 0.2);
+    background-color: rgba(238, 198, 0, 0.2);
     max-width: fit-content;
     border-radius: 5px;
 }
 
-span {
+.good,
+.bad {
     text-transform: capitalize;
 }
 
 .good {
-color: rgb(29, 186, 79);
+    color: rgb(29, 186, 79);
 }
 
 .bad {
-color: rgb(125, 9, 9);
+    color: rgb(125, 9, 9);
 }
 
 .p1 {
     font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+tr:nth-child(odd) {
+    background-color: #797777;
+}
+
+.notification{
+    border-radius: 20px;
+    position: fixed;
+    top: 75%;
+    right: 1%;
+    background: radial-gradient(rgb(153, 110, 10), rgb(3, 141, 33));
+    width: 40px;
+    height: 40px;
 }
